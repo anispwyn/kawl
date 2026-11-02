@@ -40,7 +40,7 @@ NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
 NIX_HARDENING_ENABLE='bindnow format fortify fortify3 libcxxhardeningfast pic relro stackclashprotection stackprotector strictflexarrays1 strictoverflow zerocallusedregs'
 export NIX_HARDENING_ENABLE
-NIX_LDFLAGS='-rpath /home/anisp/projects/bgstuff/outputs/out/lib  -L/nix/store/099w1qiy2ji55bis8vf8rgbf5zyysrmk-rust-nightly-default-2026-10-25/lib -L/nix/store/mp9krn4yrm1hwh657y1aa2jv0x97fbin-libxkbcommon-1.13.2/lib -L/nix/store/8vz293r6dqfci9p6m955yziz2agxx990-wayland-1.26.0/lib -L/nix/store/lazac5vw20j0pyahzbaxz8z8hyf7m9zf-openssl-3.5.9/lib -L/nix/store/la62431p5qf1ggr3rdzql9dksv5fhicc-vulkan-loader-1.4.363.0/lib -L/nix/store/wwfxbskbriy9w5cyabx4z2sdak6n6jvs-libglvnd-1.7.0/lib -L/nix/store/xj28m1zm1qn3a0zjlvwcz0v4jlg0csi8-dbus-1.16.2-lib/lib -L/nix/store/f5r77q40xh7rj30dfkajv8y6jwbf4xh2-zstd-1.5.7/lib -L/nix/store/099w1qiy2ji55bis8vf8rgbf5zyysrmk-rust-nightly-default-2026-10-25/lib -L/nix/store/mp9krn4yrm1hwh657y1aa2jv0x97fbin-libxkbcommon-1.13.2/lib -L/nix/store/8vz293r6dqfci9p6m955yziz2agxx990-wayland-1.26.0/lib -L/nix/store/lazac5vw20j0pyahzbaxz8z8hyf7m9zf-openssl-3.5.9/lib -L/nix/store/la62431p5qf1ggr3rdzql9dksv5fhicc-vulkan-loader-1.4.363.0/lib -L/nix/store/wwfxbskbriy9w5cyabx4z2sdak6n6jvs-libglvnd-1.7.0/lib -L/nix/store/xj28m1zm1qn3a0zjlvwcz0v4jlg0csi8-dbus-1.16.2-lib/lib -L/nix/store/f5r77q40xh7rj30dfkajv8y6jwbf4xh2-zstd-1.5.7/lib'
+NIX_LDFLAGS='-rpath /home/anisp/projects/kawl/outputs/out/lib  -L/nix/store/099w1qiy2ji55bis8vf8rgbf5zyysrmk-rust-nightly-default-2026-10-25/lib -L/nix/store/mp9krn4yrm1hwh657y1aa2jv0x97fbin-libxkbcommon-1.13.2/lib -L/nix/store/8vz293r6dqfci9p6m955yziz2agxx990-wayland-1.26.0/lib -L/nix/store/lazac5vw20j0pyahzbaxz8z8hyf7m9zf-openssl-3.5.9/lib -L/nix/store/la62431p5qf1ggr3rdzql9dksv5fhicc-vulkan-loader-1.4.363.0/lib -L/nix/store/wwfxbskbriy9w5cyabx4z2sdak6n6jvs-libglvnd-1.7.0/lib -L/nix/store/xj28m1zm1qn3a0zjlvwcz0v4jlg0csi8-dbus-1.16.2-lib/lib -L/nix/store/f5r77q40xh7rj30dfkajv8y6jwbf4xh2-zstd-1.5.7/lib -L/nix/store/099w1qiy2ji55bis8vf8rgbf5zyysrmk-rust-nightly-default-2026-10-25/lib -L/nix/store/mp9krn4yrm1hwh657y1aa2jv0x97fbin-libxkbcommon-1.13.2/lib -L/nix/store/8vz293r6dqfci9p6m955yziz2agxx990-wayland-1.26.0/lib -L/nix/store/lazac5vw20j0pyahzbaxz8z8hyf7m9zf-openssl-3.5.9/lib -L/nix/store/la62431p5qf1ggr3rdzql9dksv5fhicc-vulkan-loader-1.4.363.0/lib -L/nix/store/wwfxbskbriy9w5cyabx4z2sdak6n6jvs-libglvnd-1.7.0/lib -L/nix/store/xj28m1zm1qn3a0zjlvwcz0v4jlg0csi8-dbus-1.16.2-lib/lib -L/nix/store/f5r77q40xh7rj30dfkajv8y6jwbf4xh2-zstd-1.5.7/lib'
 export NIX_LDFLAGS
 NIX_NO_SELF_RPATH='1'
 NIX_PKG_CONFIG_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
@@ -136,7 +136,7 @@ name='nix-shell-env'
 export name
 nativeBuildInputs='/nix/store/099w1qiy2ji55bis8vf8rgbf5zyysrmk-rust-nightly-default-2026-10-25 /nix/store/s70gz6bvz74c36xigh5m2ab2cqli08cv-pkg-config-wrapper-0.29.2 /nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev /nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev /nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49 /nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev /nix/store/lw8pmjfrf1c9vr9ncg8k2lp2kqp482fw-vulkan-loader-1.4.363.0-dev /nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev /nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev /nix/store/s70gz6bvz74c36xigh5m2ab2cqli08cv-pkg-config-wrapper-0.29.2 /nix/store/fjpm7sls9ja9pf0y3mgyh04m51am4y7z-installFromCargoBuildLogHook /nix/store/a0xy993mmfc4p2yjdbaqb7s33874jrj3-removeReferencesToRustToolchainHook /nix/store/msf0kbz8rg5sf6gbfwm9x6pj293g7lc6-removeReferencesToVendoredSourcesHook /nix/store/l3jrya2cdjmzxgdpnxzwvx3h416lcbr6-cargo-1.99.0 /nix/store/hw3rx5pwlbrjbmcvrsfx154qnihs92sv-cargoHelperFunctionsHook /nix/store/cv8in9ip2nynrgr77r4hcpy1ls3ixz5h-configureCargoCommonVarsHook /nix/store/04qn49v0z9lfbzk6fvphpzfjwx9vasl8-configureCargoVendoredDepsHook /nix/store/0ydqr8slss7fb5bcsxsa1wwi1j2a1zlb-inheritCargoArtifactsHook /nix/store/sxz643y3m4mbj0a0afzry4knhsn92r7m-installCargoArtifactsHook /nix/store/mbihk9fs3jyivfci04x7krmdrzckddya-replaceCargoLockHook /nix/store/hsv6gv4p5cvlgzqgj0ylszssifr2vh6x-rsync-3.5.0 /nix/store/6l9kbzxwq9ij2lcmwl2qb1jdpqisjr8l-rustc-wrapper-1.99.0 /nix/store/l9f17m3j280r2gmb7gksl4r1dycxylin-zstd-1.5.7-dev'
 export nativeBuildInputs
-out='/home/anisp/projects/bgstuff/outputs/out'
+out='/home/anisp/projects/kawl/outputs/out'
 export out
 outputBin='out'
 outputDev='out'
@@ -171,7 +171,7 @@ preConfigurePhases=' updateAutotoolsGnuConfigScriptsPhase'
 declare -a preFixupHooks=('_moveToShare' '_multioutDocs' '_multioutDevs' )
 preferLocalBuild='1'
 export preferLocalBuild
-prefix='/home/anisp/projects/bgstuff/outputs/out'
+prefix='/home/anisp/projects/kawl/outputs/out'
 declare -a propagatedBuildDepFiles=('propagated-build-build-deps' 'propagated-native-build-inputs' 'propagated-build-target-deps' )
 propagatedBuildInputs=''
 export propagatedBuildInputs

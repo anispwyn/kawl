@@ -22,7 +22,7 @@
   } @ inputs:
     flakelight ./. {
       inherit inputs;
-      pname = "bgstuff";
+      pname = "kawl";
       withOverlays = [fenix.overlays.default];
 
       packages.default = {pkgs, ...}: let
