@@ -34,7 +34,7 @@ NIX_CC='/nix/store/r5ri78axx1qggkjq3vawywlzglg70b5w-gcc-wrapper-16.2.0'
 export NIX_CC
 NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu='1'
 export NIX_CC_WRAPPER_TARGET_HOST_x86_64_unknown_linux_gnu
-NIX_CFLAGS_COMPILE=' -frandom-seed=0bj4lw8r5v -isystem /nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev/include -isystem /nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev/include -isystem /nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49/include -isystem /nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev/include -isystem /nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev/include -isystem /nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev/include -isystem /nix/store/l9f17m3j280r2gmb7gksl4r1dycxylin-zstd-1.5.7-dev/include -isystem /nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev/include -isystem /nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev/include -isystem /nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49/include -isystem /nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev/include -isystem /nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev/include -isystem /nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev/include -isystem /nix/store/l9f17m3j280r2gmb7gksl4r1dycxylin-zstd-1.5.7-dev/include'
+NIX_CFLAGS_COMPILE=' -frandom-seed=2qny6xhgwi -isystem /nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev/include -isystem /nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev/include -isystem /nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49/include -isystem /nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev/include -isystem /nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev/include -isystem /nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev/include -isystem /nix/store/l9f17m3j280r2gmb7gksl4r1dycxylin-zstd-1.5.7-dev/include -isystem /nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev/include -isystem /nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev/include -isystem /nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49/include -isystem /nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev/include -isystem /nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev/include -isystem /nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev/include -isystem /nix/store/l9f17m3j280r2gmb7gksl4r1dycxylin-zstd-1.5.7-dev/include'
 export NIX_CFLAGS_COMPILE
 NIX_ENFORCE_NO_NATIVE='1'
 export NIX_ENFORCE_NO_NATIVE
@@ -134,7 +134,7 @@ mesonFlags=''
 export mesonFlags
 name='nix-shell-env'
 export name
-nativeBuildInputs='/nix/store/099w1qiy2ji55bis8vf8rgbf5zyysrmk-rust-nightly-default-2026-10-25 /nix/store/s70gz6bvz74c36xigh5m2ab2cqli08cv-pkg-config-wrapper-0.29.2 /nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev /nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev /nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49 /nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev /nix/store/lw8pmjfrf1c9vr9ncg8k2lp2kqp482fw-vulkan-loader-1.4.363.0-dev /nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev /nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev /nix/store/s70gz6bvz74c36xigh5m2ab2cqli08cv-pkg-config-wrapper-0.29.2 /nix/store/fjpm7sls9ja9pf0y3mgyh04m51am4y7z-installFromCargoBuildLogHook /nix/store/a0xy993mmfc4p2yjdbaqb7s33874jrj3-removeReferencesToRustToolchainHook /nix/store/msf0kbz8rg5sf6gbfwm9x6pj293g7lc6-removeReferencesToVendoredSourcesHook /nix/store/l3jrya2cdjmzxgdpnxzwvx3h416lcbr6-cargo-1.99.0 /nix/store/hw3rx5pwlbrjbmcvrsfx154qnihs92sv-cargoHelperFunctionsHook /nix/store/cv8in9ip2nynrgr77r4hcpy1ls3ixz5h-configureCargoCommonVarsHook /nix/store/04qn49v0z9lfbzk6fvphpzfjwx9vasl8-configureCargoVendoredDepsHook /nix/store/0ydqr8slss7fb5bcsxsa1wwi1j2a1zlb-inheritCargoArtifactsHook /nix/store/sxz643y3m4mbj0a0afzry4knhsn92r7m-installCargoArtifactsHook /nix/store/mbihk9fs3jyivfci04x7krmdrzckddya-replaceCargoLockHook /nix/store/hsv6gv4p5cvlgzqgj0ylszssifr2vh6x-rsync-3.5.0 /nix/store/6l9kbzxwq9ij2lcmwl2qb1jdpqisjr8l-rustc-wrapper-1.99.0 /nix/store/l9f17m3j280r2gmb7gksl4r1dycxylin-zstd-1.5.7-dev'
+nativeBuildInputs='/nix/store/099w1qiy2ji55bis8vf8rgbf5zyysrmk-rust-nightly-default-2026-10-25 /nix/store/s70gz6bvz74c36xigh5m2ab2cqli08cv-pkg-config-wrapper-0.29.2 /nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev /nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev /nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49 /nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev /nix/store/lw8pmjfrf1c9vr9ncg8k2lp2kqp482fw-vulkan-loader-1.4.363.0-dev /nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev /nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev /nix/store/s70gz6bvz74c36xigh5m2ab2cqli08cv-pkg-config-wrapper-0.29.2 /nix/store/wnxl2v5a9rm80kixrg45k99d0s78zqsv-make-shell-wrapper-hook /nix/store/fjpm7sls9ja9pf0y3mgyh04m51am4y7z-installFromCargoBuildLogHook /nix/store/a0xy993mmfc4p2yjdbaqb7s33874jrj3-removeReferencesToRustToolchainHook /nix/store/msf0kbz8rg5sf6gbfwm9x6pj293g7lc6-removeReferencesToVendoredSourcesHook /nix/store/l3jrya2cdjmzxgdpnxzwvx3h416lcbr6-cargo-1.99.0 /nix/store/hw3rx5pwlbrjbmcvrsfx154qnihs92sv-cargoHelperFunctionsHook /nix/store/cv8in9ip2nynrgr77r4hcpy1ls3ixz5h-configureCargoCommonVarsHook /nix/store/04qn49v0z9lfbzk6fvphpzfjwx9vasl8-configureCargoVendoredDepsHook /nix/store/0ydqr8slss7fb5bcsxsa1wwi1j2a1zlb-inheritCargoArtifactsHook /nix/store/sxz643y3m4mbj0a0afzry4knhsn92r7m-installCargoArtifactsHook /nix/store/mbihk9fs3jyivfci04x7krmdrzckddya-replaceCargoLockHook /nix/store/hsv6gv4p5cvlgzqgj0ylszssifr2vh6x-rsync-3.5.0 /nix/store/6l9kbzxwq9ij2lcmwl2qb1jdpqisjr8l-rustc-wrapper-1.99.0 /nix/store/l9f17m3j280r2gmb7gksl4r1dycxylin-zstd-1.5.7-dev'
 export nativeBuildInputs
 out='/home/anisp/projects/kawl/outputs/out'
 export out
@@ -155,13 +155,13 @@ phases='buildPhase'
 export phases
 pkg='/nix/store/r5ri78axx1qggkjq3vawywlzglg70b5w-gcc-wrapper-16.2.0'
 declare -a pkgsBuildBuild=()
-declare -a pkgsBuildHost=('/nix/store/099w1qiy2ji55bis8vf8rgbf5zyysrmk-rust-nightly-default-2026-10-25' '/nix/store/s70gz6bvz74c36xigh5m2ab2cqli08cv-pkg-config-wrapper-0.29.2' '/nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev' '/nix/store/mp9krn4yrm1hwh657y1aa2jv0x97fbin-libxkbcommon-1.13.2' '/nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev' '/nix/store/8vz293r6dqfci9p6m955yziz2agxx990-wayland-1.26.0' '/nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49' '/nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev' '/nix/store/gvglnxscmvx4mh9my0cy0xgi0l1z6l9s-openssl-3.5.9-bin' '/nix/store/lazac5vw20j0pyahzbaxz8z8hyf7m9zf-openssl-3.5.9' '/nix/store/lw8pmjfrf1c9vr9ncg8k2lp2kqp482fw-vulkan-loader-1.4.363.0-dev' '/nix/store/la62431p5qf1ggr3rdzql9dksv5fhicc-vulkan-loader-1.4.363.0' '/nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev' '/nix/store/wwfxbskbriy9w5cyabx4z2sdak6n6jvs-libglvnd-1.7.0' '/nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev' '/nix/store/xj28m1zm1qn3a0zjlvwcz0v4jlg0csi8-dbus-1.16.2-lib' '/nix/store/fqbfyxfci9la4a246k1g340c99pva47l-dbus-1.16.2' '/nix/store/fjpm7sls9ja9pf0y3mgyh04m51am4y7z-installFromCargoBuildLogHook' '/nix/store/a0xy993mmfc4p2yjdbaqb7s33874jrj3-removeReferencesToRustToolchainHook' '/nix/store/msf0kbz8rg5sf6gbfwm9x6pj293g7lc6-removeReferencesToVendoredSourcesHook' '/nix/store/l3jrya2cdjmzxgdpnxzwvx3h416lcbr6-cargo-1.99.0' '/nix/store/hw3rx5pwlbrjbmcvrsfx154qnihs92sv-cargoHelperFunctionsHook' '/nix/store/cv8in9ip2nynrgr77r4hcpy1ls3ixz5h-configureCargoCommonVarsHook' '/nix/store/04qn49v0z9lfbzk6fvphpzfjwx9vasl8-configureCargoVendoredDepsHook' '/nix/store/0ydqr8slss7fb5bcsxsa1wwi1j2a1zlb-inheritCargoArtifactsHook' '/nix/store/sxz643y3m4mbj0a0afzry4knhsn92r7m-installCargoArtifactsHook' '/nix/store/mbihk9fs3jyivfci04x7krmdrzckddya-replaceCargoLockHook' '/nix/store/hsv6gv4p5cvlgzqgj0ylszssifr2vh6x-rsync-3.5.0' '/nix/store/6l9kbzxwq9ij2lcmwl2qb1jdpqisjr8l-rustc-wrapper-1.99.0' '/nix/store/l9f17m3j280r2gmb7gksl4r1dycxylin-zstd-1.5.7-dev' '/nix/store/yqgkjczmmxsp6l26nwriry7h3kq981vi-zstd-1.5.7-bin' '/nix/store/f5r77q40xh7rj30dfkajv8y6jwbf4xh2-zstd-1.5.7' '/nix/store/dl38pix4jvabi5smb9wywhp6pimmpva6-patchelf-0.19.2' '/nix/store/yj2m2q5r6ncrb0hnm5w2xagvd7fvrhsj-update-autotools-gnu-config-scripts-hook' '/nix/store/0y5xmdb7qfvimjwbq7ibg1xdgkgjwqng-no-broken-symlinks.sh' '/nix/store/cv1d7p48379km6a85h4zp6kr86brh32q-audit-tmpdir.sh' '/nix/store/85clx3b0xkdf58jn161iy80y5223ilbi-compress-man-pages.sh' '/nix/store/p3l1a5y7nllfyrjn2krlwgcc3z0cd3fq-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/yzh0fbrlmkv6m2y6km6zn6mwnwdv51xf-multiple-outputs.sh' '/nix/store/x8c40nfigps493a07sdr2pm5s9j1cdc0-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh' '/nix/store/89igyzp72y4ky0qyj4x5r52z84w203ki-strip.sh' '/nix/store/r5ri78axx1qggkjq3vawywlzglg70b5w-gcc-wrapper-16.2.0' '/nix/store/fi98g122a3kzbschgvbvsqvpyxrmqvvl-binutils-wrapper-2.46' )
+declare -a pkgsBuildHost=('/nix/store/099w1qiy2ji55bis8vf8rgbf5zyysrmk-rust-nightly-default-2026-10-25' '/nix/store/s70gz6bvz74c36xigh5m2ab2cqli08cv-pkg-config-wrapper-0.29.2' '/nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev' '/nix/store/mp9krn4yrm1hwh657y1aa2jv0x97fbin-libxkbcommon-1.13.2' '/nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev' '/nix/store/8vz293r6dqfci9p6m955yziz2agxx990-wayland-1.26.0' '/nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49' '/nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev' '/nix/store/gvglnxscmvx4mh9my0cy0xgi0l1z6l9s-openssl-3.5.9-bin' '/nix/store/lazac5vw20j0pyahzbaxz8z8hyf7m9zf-openssl-3.5.9' '/nix/store/lw8pmjfrf1c9vr9ncg8k2lp2kqp482fw-vulkan-loader-1.4.363.0-dev' '/nix/store/la62431p5qf1ggr3rdzql9dksv5fhicc-vulkan-loader-1.4.363.0' '/nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev' '/nix/store/wwfxbskbriy9w5cyabx4z2sdak6n6jvs-libglvnd-1.7.0' '/nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev' '/nix/store/xj28m1zm1qn3a0zjlvwcz0v4jlg0csi8-dbus-1.16.2-lib' '/nix/store/fqbfyxfci9la4a246k1g340c99pva47l-dbus-1.16.2' '/nix/store/wnxl2v5a9rm80kixrg45k99d0s78zqsv-make-shell-wrapper-hook' '/nix/store/06il2mnivfxvf14xzkyb1vwcgvzidybq-die-hook' '/nix/store/fjpm7sls9ja9pf0y3mgyh04m51am4y7z-installFromCargoBuildLogHook' '/nix/store/a0xy993mmfc4p2yjdbaqb7s33874jrj3-removeReferencesToRustToolchainHook' '/nix/store/msf0kbz8rg5sf6gbfwm9x6pj293g7lc6-removeReferencesToVendoredSourcesHook' '/nix/store/l3jrya2cdjmzxgdpnxzwvx3h416lcbr6-cargo-1.99.0' '/nix/store/hw3rx5pwlbrjbmcvrsfx154qnihs92sv-cargoHelperFunctionsHook' '/nix/store/cv8in9ip2nynrgr77r4hcpy1ls3ixz5h-configureCargoCommonVarsHook' '/nix/store/04qn49v0z9lfbzk6fvphpzfjwx9vasl8-configureCargoVendoredDepsHook' '/nix/store/0ydqr8slss7fb5bcsxsa1wwi1j2a1zlb-inheritCargoArtifactsHook' '/nix/store/sxz643y3m4mbj0a0afzry4knhsn92r7m-installCargoArtifactsHook' '/nix/store/mbihk9fs3jyivfci04x7krmdrzckddya-replaceCargoLockHook' '/nix/store/hsv6gv4p5cvlgzqgj0ylszssifr2vh6x-rsync-3.5.0' '/nix/store/6l9kbzxwq9ij2lcmwl2qb1jdpqisjr8l-rustc-wrapper-1.99.0' '/nix/store/l9f17m3j280r2gmb7gksl4r1dycxylin-zstd-1.5.7-dev' '/nix/store/yqgkjczmmxsp6l26nwriry7h3kq981vi-zstd-1.5.7-bin' '/nix/store/f5r77q40xh7rj30dfkajv8y6jwbf4xh2-zstd-1.5.7' '/nix/store/dl38pix4jvabi5smb9wywhp6pimmpva6-patchelf-0.19.2' '/nix/store/yj2m2q5r6ncrb0hnm5w2xagvd7fvrhsj-update-autotools-gnu-config-scripts-hook' '/nix/store/0y5xmdb7qfvimjwbq7ibg1xdgkgjwqng-no-broken-symlinks.sh' '/nix/store/cv1d7p48379km6a85h4zp6kr86brh32q-audit-tmpdir.sh' '/nix/store/85clx3b0xkdf58jn161iy80y5223ilbi-compress-man-pages.sh' '/nix/store/p3l1a5y7nllfyrjn2krlwgcc3z0cd3fq-make-symlinks-relative.sh' '/nix/store/5yzw0vhkyszf2d179m0qfkgxmp5wjjx4-move-docs.sh' '/nix/store/fyaryjvghbkpfnsyw97hb3lyb37s1pd6-move-lib64.sh' '/nix/store/kd4xwxjpjxi71jkm6ka0np72if9rm3y0-move-sbin.sh' '/nix/store/pag6l61paj1dc9sv15l7bm5c17xn5kyk-move-systemd-user-units.sh' '/nix/store/yzh0fbrlmkv6m2y6km6zn6mwnwdv51xf-multiple-outputs.sh' '/nix/store/x8c40nfigps493a07sdr2pm5s9j1cdc0-patch-shebangs.sh' '/nix/store/cickvswrvann041nqxb0rxilc46svw1n-prune-libtool-files.sh' '/nix/store/xyff06pkhki3qy1ls77w10s0v79c9il0-reproducible-builds.sh' '/nix/store/z7k98578dfzi6l3hsvbivzm7hfqlk0zc-set-source-date-epoch-to-latest.sh' '/nix/store/89igyzp72y4ky0qyj4x5r52z84w203ki-strip.sh' '/nix/store/r5ri78axx1qggkjq3vawywlzglg70b5w-gcc-wrapper-16.2.0' '/nix/store/fi98g122a3kzbschgvbvsqvpyxrmqvvl-binutils-wrapper-2.46' )
 declare -a pkgsBuildTarget=()
 declare -a pkgsHostHost=()
 declare -a pkgsHostTarget=('/nix/store/wps4g7kaj73d2zs53a5cfimw1bnb3c99-openssl-3.5.9-dev' '/nix/store/gvglnxscmvx4mh9my0cy0xgi0l1z6l9s-openssl-3.5.9-bin' '/nix/store/lazac5vw20j0pyahzbaxz8z8hyf7m9zf-openssl-3.5.9' '/nix/store/5pq7mhgzqn8qgv41ff6dj3c2rhkqgalx-libxkbcommon-1.13.2-dev' '/nix/store/mp9krn4yrm1hwh657y1aa2jv0x97fbin-libxkbcommon-1.13.2' '/nix/store/yxzfyllyg8ghjpywdv8z9489d32mjq4x-wayland-1.26.0-dev' '/nix/store/8vz293r6dqfci9p6m955yziz2agxx990-wayland-1.26.0' '/nix/store/4gslphcdzp6rcxq5n0zqjc5xjczyw32w-wayland-protocols-1.49' '/nix/store/lw8pmjfrf1c9vr9ncg8k2lp2kqp482fw-vulkan-loader-1.4.363.0-dev' '/nix/store/la62431p5qf1ggr3rdzql9dksv5fhicc-vulkan-loader-1.4.363.0' '/nix/store/7gm24cv1yy7d225qjswxwmr6b02ik884-libglvnd-1.7.0-dev' '/nix/store/wwfxbskbriy9w5cyabx4z2sdak6n6jvs-libglvnd-1.7.0' '/nix/store/n03diw9l5lrcv91hh6vdqzp79dlgcddg-dbus-1.16.2-dev' '/nix/store/xj28m1zm1qn3a0zjlvwcz0v4jlg0csi8-dbus-1.16.2-lib' '/nix/store/fqbfyxfci9la4a246k1g340c99pva47l-dbus-1.16.2' )
 declare -a pkgsTargetTarget=()
 declare -a postBuildHooks=('postBuildInstallFromCargoBuildLog' )
-postBuildInstallFromCargoBuildLogOut='postBuildInstallFromCargoBuildLogOutTempi3o'
+postBuildInstallFromCargoBuildLogOut='postBuildInstallFromCargoBuildLogOutTemptPV'
 declare -a postFixupHooks=('noBrokenSymlinksInAllOutputs' '_makeSymlinksRelative' '_multioutPropagateDev' )
 declare -a postInstallHooks=('removeReferencesToRustToolchain' )
 declare -a postPatchHooks=('configureCargoCommonVars' )
@@ -704,6 +704,16 @@ addEnvHooks ()
         eval "${pkgHookVar}s"'+=("$@")';
     done
 }
+addSuffix ()
+{
+ 
+    suffix="$1";
+    shift;
+    for name in "$@";
+    do
+        echo "$name$suffix";
+    done
+}
 addToSearchPath ()
 {
  
@@ -749,6 +759,13 @@ appendToVar ()
     else
         nameref="${nameref-} $*";
     fi
+}
+assertExecutable ()
+{
+ 
+    local file="$1";
+    [[ -e "$file" ]] || die "Cannot wrap '$file' because it does not exist";
+    [[ -f "$file" && -x "$file" ]] || die "Cannot wrap '$file' because it is not an executable file"
 }
 auditTmpdir ()
 {
@@ -1154,6 +1171,19 @@ definePhases ()
         phases="${prePhases[*]:-} unpackPhase patchPhase ${preConfigurePhases[*]:-}             configurePhase ${preBuildPhases[*]:-} buildPhase checkPhase             ${preInstallPhases[*]:-} installPhase ${preFixupPhases[*]:-} fixupPhase installCheckPhase             ${preDistPhases[*]:-} distPhase ${postPhases[*]:-}";
     fi
 }
+die ()
+{
+ 
+    set +e;
+    printf "\nBuilder called die: %b\n" "$*";
+    printf "Backtrace:\n";
+    local frame=0;
+    while caller $frame; do
+        ((frame++));
+    done;
+    printf "\n";
+    exit 1
+}
 distPhase ()
 {
  
@@ -1212,6 +1242,16 @@ exitHandler ()
         runHook exitHook;
     fi;
     return "$exitCode"
+}
+filterExisting ()
+{
+ 
+    for fn in "$@";
+    do
+        if test -e "$fn"; then
+            echo "$fn";
+        fi;
+    done
 }
 findInputs ()
 {
@@ -1604,6 +1644,180 @@ isScript ()
     else
         return 1;
     fi
+}
+makeShellWrapper ()
+{
+ 
+    local original="$1";
+    local wrapper="$2";
+    local params varName value command separator n fileNames;
+    local argv0 flagsBefore flagsAfter flags;
+    assertExecutable "$original";
+    function addValue () 
+    { 
+        local mode="$1";
+        local varName="$2";
+        local separator="$3";
+        local value="$4";
+        local reenableGlob=0;
+        if [[ ! -o noglob ]]; then
+            reenableGlob=1;
+        fi;
+        set -o noglob;
+        if [[ -n "$value" ]]; then
+            local old_ifs=$IFS;
+            IFS=$separator;
+            if [[ "$mode" == '--prefix'* ]]; then
+                local tmp=;
+                for v in $value;
+                do
+                    tmp=$v${tmp:+$separator}$tmp;
+                done;
+                value="$tmp";
+            fi;
+            for v in $value;
+            do
+                { 
+                    echo "$varName=\${$varName:+${separator@Q}\$$varName${separator@Q}}";
+                    if [[ "$mode" == '--prefix'* ]]; then
+                        echo "$varName=\${$varName/${separator@Q}${v@Q}${separator@Q}/${separator@Q}}";
+                        echo "$varName=${v@Q}\$$varName";
+                    else
+                        if [[ "$mode" == '--suffix'* ]]; then
+                            echo "if [[ \$$varName != *${separator@Q}${v@Q}${separator@Q}* ]]; then";
+                            echo "    $varName=\$$varName${v@Q}";
+                            echo "fi";
+                        else
+                            echo "unknown mode $mode!" 1>&2;
+                            exit 1;
+                        fi;
+                    fi;
+                    echo "$varName=\${$varName#${separator@Q}}";
+                    echo "$varName=\${$varName%${separator@Q}}";
+                    echo "export $varName"
+                } >> "$wrapper";
+            done;
+            IFS=$old_ifs;
+        fi;
+        if (( reenableGlob )); then
+            set +o noglob;
+        fi
+    };
+    mkdir -p "$(dirname "$wrapper")";
+    echo "#! /nix/store/nnm9gdr70ihc6zc9298mzz8jpcgaciql-bash-5.3p20/bin/bash -e" > "$wrapper";
+    params=("$@");
+    for ((n = 2; n < ${#params[*]}; n += 1))
+    do
+        p="${params[$n]}";
+        if [[ "$p" == "--set" ]]; then
+            varName="${params[$((n + 1))]}";
+            value="${params[$((n + 2))]}";
+            n=$((n + 2));
+            echo "export $varName=${value@Q}" >> "$wrapper";
+        else
+            if [[ "$p" == "--set-default" ]]; then
+                varName="${params[$((n + 1))]}";
+                value="${params[$((n + 2))]}";
+                n=$((n + 2));
+                echo "export $varName=\${$varName-${value@Q}}" >> "$wrapper";
+            else
+                if [[ "$p" == "--unset" ]]; then
+                    varName="${params[$((n + 1))]}";
+                    n=$((n + 1));
+                    echo "unset $varName" >> "$wrapper";
+                else
+                    if [[ "$p" == "--chdir" ]]; then
+                        dir="${params[$((n + 1))]}";
+                        n=$((n + 1));
+                        echo "cd ${dir@Q}" >> "$wrapper";
+                    else
+                        if [[ "$p" == "--run" ]]; then
+                            command="${params[$((n + 1))]}";
+                            n=$((n + 1));
+                            echo "$command" >> "$wrapper";
+                        else
+                            if [[ ( "$p" == "--suffix" ) || ( "$p" == "--prefix" ) ]]; then
+                                varName="${params[$((n + 1))]}";
+                                separator="${params[$((n + 2))]}";
+                                value="${params[$((n + 3))]}";
+                                n=$((n + 3));
+                                addValue "$p" "$varName" "$separator" "$value";
+                            else
+                                if [[ ( "$p" == "--suffix-each" ) || ( "$p" == "--prefix-each" ) ]]; then
+                                    varName="${params[$((n + 1))]}";
+                                    separator="${params[$((n + 2))]}";
+                                    values="${params[$((n + 3))]}";
+                                    n=$((n + 3));
+                                    for value in $values;
+                                    do
+                                        addValue "$p" "$varName" "$separator" "$value";
+                                    done;
+                                else
+                                    if [[ ( "$p" == "--suffix-contents" ) || ( "$p" == "--prefix-contents" ) ]]; then
+                                        varName="${params[$((n + 1))]}";
+                                        separator="${params[$((n + 2))]}";
+                                        fileNames="${params[$((n + 3))]}";
+                                        n=$((n + 3));
+                                        for fileName in $fileNames;
+                                        do
+                                            contents="$(cat "$fileName")";
+                                            addValue "$p" "$varName" "$separator" "$contents";
+                                        done;
+                                    else
+                                        if [[ "$p" == "--add-flag" ]]; then
+                                            flags=${params[n + 1]@Q};
+                                            n=$((n + 1));
+                                            flagsBefore="${flagsBefore-} $flags";
+                                        else
+                                            if [[ "$p" == "--append-flag" ]]; then
+                                                flags=${params[n + 1]@Q};
+                                                n=$((n + 1));
+                                                flagsAfter="${flagsAfter-} $flags";
+                                            else
+                                                if [[ "$p" == "--add-flags" ]]; then
+                                                    flags="${params[$((n + 1))]}";
+                                                    n=$((n + 1));
+                                                    flagsBefore="${flagsBefore-} $flags";
+                                                else
+                                                    if [[ "$p" == "--append-flags" ]]; then
+                                                        flags="${params[$((n + 1))]}";
+                                                        n=$((n + 1));
+                                                        flagsAfter="${flagsAfter-} $flags";
+                                                    else
+                                                        if [[ "$p" == "--argv0" ]]; then
+                                                            argv0="${params[$((n + 1))]}";
+                                                            n=$((n + 1));
+                                                        else
+                                                            if [[ "$p" == "--inherit-argv0" ]]; then
+                                                                argv0='$0';
+                                                            else
+                                                                if [[ "$p" == "--resolve-argv0" ]]; then
+                                                                    resolve_argv0=1;
+                                                                else
+                                                                    die "makeWrapper doesn't understand the arg $p";
+                                                                fi;
+                                                            fi;
+                                                        fi;
+                                                    fi;
+                                                fi;
+                                            fi;
+                                        fi;
+                                    fi;
+                                fi;
+                            fi;
+                        fi;
+                    fi;
+                fi;
+            fi;
+        fi;
+    done;
+    echo exec ${argv0:+-a \"$argv0\"} \""$original"\" "${flagsBefore-}" '"$@"' "${flagsAfter-}" >> "$wrapper";
+    chmod +x "$wrapper"
+}
+makeWrapper ()
+{
+ 
+    makeShellWrapper "$@"
 }
 mapOffset ()
 {
@@ -2477,6 +2691,24 @@ updateSourceDateEpoch ()
             echo "warning: file $newestFile may be generated; SOURCE_DATE_EPOCH may be non-deterministic";
         fi;
     fi
+}
+wrapProgram ()
+{
+ 
+    wrapProgramShell "$@"
+}
+wrapProgramShell ()
+{
+ 
+    local prog="$1";
+    local hidden;
+    assertExecutable "$prog";
+    hidden="$(dirname "$prog")/.$(basename "$prog")"-wrapped;
+    while [ -e "$hidden" ]; do
+        hidden="${hidden}_";
+    done;
+    mv "$prog" "$hidden";
+    makeShellWrapper "$hidden" "$prog" --inherit-argv0 "${@:2}"
 }
 printf -v NIX_SHELL_LEVEL "%d" "${NIX_SHELL_LEVEL:-0}" || NIX_SHELL_LEVEL=0
 export NIX_SHELL_LEVEL=$(( NIX_SHELL_LEVEL + 1 ))

@@ -32,6 +32,7 @@
         commonArgs = {
           nativeBuildInputs = [
             pkgs.pkg-config
+            pkgs.makeWrapper
           ];
 
           buildInputs = [
@@ -57,6 +58,17 @@
             pname = projectInfo.name;
             version = projectInfo.version;
             cargoArtifacts = deps;
+
+            postInstall = ''
+              wrapProgram $out/bin/kawl \
+              --prefix LD_LIBRARY_PATH : "${pkgs.lib.makeLibraryPath [
+                pkgs.wayland
+                pkgs.libxkbcommon
+                pkgs.vulkan-loader
+                pkgs.libGL
+                pkgs.dbus
+              ]}"
+            '';
           }
           // commonArgs);
 
