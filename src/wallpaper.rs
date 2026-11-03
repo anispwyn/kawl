@@ -111,12 +111,11 @@ impl Wallpaper {
             return;
         };
 
-        let frame = match self.surface.get_current_texture() {
-            wgpu::CurrentSurfaceTexture::Success(frame) => frame,
+        let (frame, suboptimal) = match self.surface.get_current_texture() {
+            wgpu::CurrentSurfaceTexture::Success(frame) => (frame, false),
             wgpu::CurrentSurfaceTexture::Suboptimal(frame) => {
-                log::debug!("suboptimal swapchain image, reconfiguring");
-                self.reconfigure();
-                frame
+                log::debug!("suboptimal swapchain image, reconfiguring after presenting");
+                (frame, true)
             }
             wgpu::CurrentSurfaceTexture::Outdated => {
                 self.reconfigure();
@@ -137,6 +136,11 @@ impl Wallpaper {
         let view = frame.texture.create_view(&TextureViewDescriptor::default());
         self.renderer.render(&view, width, height);
         self.queue.present(frame);
+
+        // `configure` must not run while a `SurfaceTexture` is alive.
+        if suboptimal {
+            self.reconfigure();
+        }
     }
 
     pub fn set_artwork(&mut self, artwork: crate::image::Artwork) {
